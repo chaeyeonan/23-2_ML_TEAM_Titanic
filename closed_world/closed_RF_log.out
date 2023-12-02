@@ -2,76 +2,77 @@
   return fit_method(estimator, *args, **kwargs)
 /home/jaeeun/anaconda/lib/python3.11/site-packages/sklearn/base.py:1151: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
   return fit_method(estimator, *args, **kwargs)
-Accuracy: 0.7763157894736842
+Accuracy: 0.7752631578947369
 Confusion Matrix
  [[27  0  0 ...  1  0  0]
- [ 0 31  1 ...  0  0  0]
+ [ 0 32  1 ...  0  0  0]
  [ 0  0 31 ...  0  0  0]
  ...
  [ 1  0  0 ... 32  0  1]
  [ 0  0  0 ...  0 34  0]
- [ 2  0  0 ...  0  0 29]]
-Accuracy: 0.781578947368421
+ [ 2  0  0 ...  0  0 30]]
+Accuracy: 0.7813157894736842
 Confusion Matrix
- [[27  0  0 ...  0  0  0]
+ [[26  0  0 ...  1  0  0]
  [ 0 32  1 ...  0  0  0]
  [ 0  0 30 ...  0  0  0]
  ...
- [ 0  0  0 ... 32  0  1]
+ [ 1  0  0 ... 32  0  1]
  [ 0  0  0 ...  0 34  0]
- [ 2  0  0 ...  0  0 31]]
+ [ 2  0  0 ...  0  0 28]]
 Class 24 Accuracy: 0.46511627906976744
-Class 37 Accuracy: 0.4864864864864865
 Class 13 Accuracy: 0.5135135135135135
-Class 89 Accuracy: 0.5227272727272727
-Class 77 Accuracy: 0.5555555555555556
-Class 21 Accuracy: 0.5813953488372093
-Class 22 Accuracy: 0.5813953488372093
-Class 51 Accuracy: 0.6
-Class 14 Accuracy: 0.6046511627906976
-Class 79 Accuracy: 0.6111111111111112
-Class 84 Accuracy: 0.6129032258064516
+Class 37 Accuracy: 0.5135135135135135
+Class 89 Accuracy: 0.5454545454545454
+Class 21 Accuracy: 0.5581395348837209
+Class 77 Accuracy: 0.5777777777777777
+Class 79 Accuracy: 0.5833333333333334
+Class 22 Accuracy: 0.6046511627906976
 Class 32 Accuracy: 0.6170212765957447
+Class 51 Accuracy: 0.6222222222222222
+Class 94 Accuracy: 0.6222222222222222
 Class 34 Accuracy: 0.6304347826086957
-Class 0 Accuracy: 0.675
+Class 55 Accuracy: 0.6451612903225806
+Class 84 Accuracy: 0.6451612903225806
+Class 0 Accuracy: 0.65
+Class 14 Accuracy: 0.6511627906976745
+Class 82 Accuracy: 0.6739130434782609
 Class 68 Accuracy: 0.6756756756756757
 Class 78 Accuracy: 0.6756756756756757
 Class 11 Accuracy: 0.6764705882352942
-Class 55 Accuracy: 0.6774193548387096
-Class 94 Accuracy: 0.6888888888888889
+Class 63 Accuracy: 0.6818181818181818
+Class 69 Accuracy: 0.6875
+Class 42 Accuracy: 0.6888888888888889
 Class 31 Accuracy: 0.6896551724137931
 Class 47 Accuracy: 0.6944444444444444
 Class 1 Accuracy: 0.6956521739130435
-Class 82 Accuracy: 0.6956521739130435
 Class 90 Accuracy: 0.6956521739130435
+Class 62 Accuracy: 0.696969696969697
 Class 10 Accuracy: 0.6976744186046512
 Class 16 Accuracy: 0.7045454545454546
-Class 63 Accuracy: 0.7045454545454546
-Class 69 Accuracy: 0.7083333333333334
-Class 42 Accuracy: 0.7111111111111111
 Class 39 Accuracy: 0.717948717948718
 Class 64 Accuracy: 0.717948717948718
-Class 62 Accuracy: 0.7272727272727273
 Class 65 Accuracy: 0.7272727272727273
 Class 74 Accuracy: 0.7317073170731707
-Class 67 Accuracy: 0.7333333333333333
 Class 46 Accuracy: 0.7441860465116279
 Class 19 Accuracy: 0.7551020408163265
-Class 27 Accuracy: 0.7692307692307693
+Class 67 Accuracy: 0.7555555555555555
 Class 8 Accuracy: 0.78125
 Class 61 Accuracy: 0.7857142857142857
 Class 23 Accuracy: 0.7872340425531915
+Class 28 Accuracy: 0.7906976744186046
 Class 35 Accuracy: 0.7931034482758621
 Class 17 Accuracy: 0.7948717948717948
+Class 27 Accuracy: 0.7948717948717948
 Class 71 Accuracy: 0.7954545454545454
 Class 9 Accuracy: 0.8
 Class 52 Accuracy: 0.8
 Class 92 Accuracy: 0.8
 Class 54 Accuracy: 0.8048780487804879
+Class 91 Accuracy: 0.8095238095238095
 Class 66 Accuracy: 0.8108108108108109
 Class 81 Accuracy: 0.8113207547169812
 Class 40 Accuracy: 0.8125
-Class 28 Accuracy: 0.813953488372093
 Class 57 Accuracy: 0.8157894736842105
 Class 88 Accuracy: 0.8157894736842105
 Class 48 Accuracy: 0.8163265306122449
@@ -80,28 +81,27 @@ Class 45 Accuracy: 0.8235294117647058
 Class 4 Accuracy: 0.8260869565217391
 Class 26 Accuracy: 0.8292682926829268
 Class 29 Accuracy: 0.8292682926829268
-Class 25 Accuracy: 0.8297872340425532
-Class 85 Accuracy: 0.8333333333333334
 Class 43 Accuracy: 0.8367346938775511
 Class 53 Accuracy: 0.8378378378378378
 Class 38 Accuracy: 0.8387096774193549
 Class 60 Accuracy: 0.8478260869565217
+Class 25 Accuracy: 0.851063829787234
 Class 2 Accuracy: 0.8571428571428571
 Class 6 Accuracy: 0.8571428571428571
 Class 15 Accuracy: 0.8571428571428571
 Class 72 Accuracy: 0.8571428571428571
-Class 91 Accuracy: 0.8571428571428571
 Class 18 Accuracy: 0.8611111111111112
-Class 73 Accuracy: 0.8648648648648649
+Class 85 Accuracy: 0.8666666666666667
 Class 50 Accuracy: 0.875
+Class 73 Accuracy: 0.8918918918918919
 Class 30 Accuracy: 0.8979591836734694
 Class 5 Accuracy: 0.9
-Class 36 Accuracy: 0.9
 Class 87 Accuracy: 0.9
+Class 83 Accuracy: 0.9130434782608695
 Class 7 Accuracy: 0.918918918918919
 Class 58 Accuracy: 0.918918918918919
+Class 36 Accuracy: 0.925
 Class 56 Accuracy: 0.926829268292683
-Class 83 Accuracy: 0.9347826086956522
 Class 49 Accuracy: 0.9411764705882353
 Class 12 Accuracy: 0.9428571428571428
 Class 75 Accuracy: 0.9444444444444444
@@ -112,8 +112,8 @@ Class 93 Accuracy: 0.9714285714285714
 Class 3 Accuracy: 0.9722222222222222
 Class 59 Accuracy: 0.9722222222222222
 Class 44 Accuracy: 0.972972972972973
-Class 76 Accuracy: 0.972972972972973
 Class 70 Accuracy: 1.0
+Class 76 Accuracy: 1.0
 Class 86 Accuracy: 1.0
 /home/jaeeun/anaconda/lib/python3.11/site-packages/sklearn/base.py:1151: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
   return fit_method(estimator, *args, **kwargs)
@@ -135,15 +135,16 @@ Class 86 Accuracy: 1.0
   return fit_method(estimator, *args, **kwargs)
 /home/jaeeun/anaconda/lib/python3.11/site-packages/sklearn/base.py:1151: DataConversionWarning: A column-vector y was passed when a 1d array was expected. Please change the shape of y to (n_samples,), for example using ravel().
   return fit_method(estimator, *args, **kwargs)
-0.6186835342657395 {'bootstrap': True, 'class_weight': 'balanced', 'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 1000}
-0.6163144894521396 {'bootstrap': True, 'class_weight': 'balanced_subsample', 'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 1000}
-0.6181563178892392 {'bootstrap': True, 'class_weight': {24: 16, 89: 8, 77: 4, 13: 4, 37: 4, 21: 4, 22: 4, 79: 4}, 'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 1000}
-Best Hyperparameters: {'bootstrap': True, 'class_weight': 'balanced', 'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 1000}
-Best Model: RandomForestClassifier(class_weight='balanced', criterion='entropy',
-                       n_estimators=1000, n_jobs=-1)
+0.6131572177106465 {'bootstrap': True, 'class_weight': 'balanced', 'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 1000}
+0.6152615113757792 {'bootstrap': True, 'class_weight': 'balanced_subsample', 'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 1000}
+0.6168404589629485 {'bootstrap': True, 'class_weight': {24: 16, 89: 8, 77: 4, 13: 4, 37: 4, 21: 4, 22: 4, 79: 4}, 'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 1000}
+Best Hyperparameters: {'bootstrap': True, 'class_weight': {24: 16, 89: 8, 77: 4, 13: 4, 37: 4, 21: 4, 22: 4, 79: 4}, 'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 1000}
+Best Model: RandomForestClassifier(class_weight={13: 4, 21: 4, 22: 4, 24: 16, 37: 4, 77: 4,
+                                     79: 4, 89: 8},
+                       criterion='entropy', n_estimators=1000, n_jobs=-1)
 Accuracy: 0.7818421052631579
-Confusion Matrix
- [[27  0  0 ...  0  0  0]
+Confusion Matrix:
+[[27  0  0 ...  0  0  0]
  [ 0 32  1 ...  0  0  0]
  [ 0  0 31 ...  0  0  0]
  ...
@@ -245,3 +246,122 @@ Class 44 Accuracy: 0.972972972972973
 Class 76 Accuracy: 0.972972972972973
 Class 70 Accuracy: 1.0
 Class 86 Accuracy: 1.0
+Best Hyperparameters: {'bootstrap': True, 'class_weight': 'balanced', 'max_depth': 300, 'max_features': 'sqrt', 'max_leaf_nodes': 2000, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 3000}
+Best Model: RandomForestClassifier(class_weight='balanced', criterion='entropy',
+                       max_depth=300, max_leaf_nodes=2000, n_estimators=3000,
+                       n_jobs=-1)
+                       
+Accuracy: 0.7828421052631579
+Confusion Matrix:
+[[27  0  0 ...  0  0  0]
+ [ 0 32  1 ...  0  0  0]
+ [ 0  0 31 ...  0  0  0]
+ ...
+ [ 1  0  0 ... 31  0  1]
+ [ 0  0  0 ...  0 34  0]
+ [ 2  0  0 ...  0  0 30]]
+Precision: 0.7814197841072603
+Recall: 0.7757894736842105
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.64      0.62      0.63        40
+           1       0.82      0.67      0.74        46
+           2       0.79      0.89      0.84        35
+           3       0.87      0.94      0.91        36
+           4       0.89      0.85      0.87        46
+           5       0.96      0.90      0.93        30
+           6       0.78      0.86      0.82        42
+           7       0.81      0.95      0.88        37
+           8       0.75      0.84      0.79        32
+           9       0.72      0.76      0.74        50
+          10       0.81      0.70      0.75        43
+          11       0.85      0.65      0.73        34
+          12       0.85      0.94      0.89        35
+          13       0.58      0.49      0.53        37
+          14       0.71      0.63      0.67        43
+          15       0.77      0.86      0.81        42
+          16       0.83      0.68      0.75        44
+          17       0.78      0.79      0.78        39
+          18       0.70      0.86      0.78        36
+          19       0.90      0.73      0.81        49
+          20       0.84      0.95      0.89        40
+          21       0.86      0.58      0.69        43
+          22       0.66      0.58      0.62        43
+          23       0.92      0.74      0.82        47
+          24       0.44      0.40      0.41        43
+          25       0.87      0.85      0.86        47
+          26       0.74      0.83      0.78        41
+          27       0.91      0.79      0.85        39
+          28       0.97      0.84      0.90        43
+          29       0.80      0.80      0.80        41
+          30       0.83      0.90      0.86        49
+          31       0.69      0.69      0.69        29
+          32       0.64      0.62      0.63        47
+          33       0.72      0.85      0.78        33
+          34       0.78      0.61      0.68        46
+          35       0.69      0.76      0.72        29
+          36       0.95      0.90      0.92        40
+          37       0.80      0.54      0.65        37
+          38       0.61      0.81      0.69        31
+          39       0.78      0.72      0.75        39
+          40       0.77      0.83      0.80        48
+          41       0.88      0.96      0.92        47
+          42       0.63      0.71      0.67        45
+          43       0.87      0.84      0.85        49
+          44       0.92      0.97      0.95        37
+          45       0.60      0.79      0.68        34
+          46       0.91      0.74      0.82        43
+          47       0.60      0.67      0.63        36
+          48       0.89      0.80      0.84        49
+          49       0.86      0.91      0.89        34
+          50       0.71      0.88      0.79        40
+          51       0.66      0.64      0.65        45
+          52       0.80      0.80      0.80        50
+          53       0.70      0.86      0.77        37
+          54       0.87      0.80      0.84        41
+          55       0.56      0.58      0.57        31
+          56       0.95      0.93      0.94        41
+          57       0.74      0.84      0.79        38
+          58       0.92      0.89      0.90        37
+          59       0.88      0.97      0.92        36
+          60       0.86      0.80      0.83        46
+          61       0.62      0.75      0.68        28
+          62       0.71      0.73      0.72        33
+          63       0.70      0.70      0.70        44
+          64       0.78      0.72      0.75        39
+          65       0.86      0.68      0.76        44
+          66       0.70      0.81      0.75        37
+          67       0.81      0.76      0.78        45
+          68       0.83      0.65      0.73        37
+          69       0.80      0.73      0.76        48
+          70       0.93      1.00      0.96        39
+          71       0.85      0.77      0.81        44
+          72       0.73      0.86      0.79        35
+          73       0.82      0.86      0.84        37
+          74       0.55      0.73      0.62        41
+          75       0.97      0.92      0.94        36
+          76       0.95      0.97      0.96        37
+          77       0.63      0.58      0.60        45
+          78       0.53      0.73      0.61        37
+          79       0.62      0.58      0.60        36
+          80       0.69      0.94      0.80        36
+          81       0.82      0.79      0.81        53
+          82       0.74      0.63      0.68        46
+          83       0.78      0.93      0.85        46
+          84       0.68      0.61      0.64        31
+          85       0.83      0.83      0.83        30
+          86       0.83      1.00      0.91        29
+          87       0.87      0.90      0.89        30
+          88       0.79      0.82      0.81        38
+          89       0.64      0.52      0.57        44
+          90       0.79      0.72      0.75        46
+          91       0.81      0.83      0.82        42
+          92       0.70      0.78      0.74        40
+          93       0.97      0.94      0.96        35
+          94       0.78      0.64      0.71        45
+
+    accuracy                           0.78      3800
+   macro avg       0.78      0.78      0.78      3800
+weighted avg       0.78      0.78      0.77      3800
+
