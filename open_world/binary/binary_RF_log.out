@@ -1,0 +1,13 @@
+nohup: ignoring input
+qt.xkb.compose: failed to create compose table
+Best Hyperparameters: {'bootstrap': True, 'class_weight': 'balanced', 'max_depth': 400, 'max_features': 'sqrt', 'max_leaf_nodes': 3000, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 3000} Best Model: RandomForestClassifier(class_weight='balanced', max_depth=400, max_leaf_nodes=3000, n_estimators=3000, n_jobs=-1)
+Accuracy: 0.8520689655172414
+Confusion Matrix
+ [[1377  555]
+ [ 303 3565]]
+True Positive Rate (TPR): 0.921664943123061
+False Positive Rate (FPR): 0.28726708074534163
+Precision: 0.8652912621359223
+Recall: 0.921664943123061
+ROC AUC: 0.8171989311888596
+Precision-Recall AUC: 0.919598792284664
