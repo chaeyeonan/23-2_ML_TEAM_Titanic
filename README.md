@@ -1,6 +1,8 @@
 # 23-2_ML_TEAM_Titanic
 
 ## 📝 Project Info
+![image](https://github.com/chhaewxn/23-2_ML_TEAM_Titanic/assets/96541582/018b20cd-8ae1-4ea2-bee9-5f6c333cf44a)
+
 ### Overview
 This project aims to address privacy concerns in the context of Website Fingerprinting attacks on the Tor network. Website Fingerprinting poses a significant threat to user anonymity, and our objective is to explore and implement effective defense mechanisms against such attacks.
 
