@@ -9,6 +9,49 @@ Website Fingerprinting allows adversaries to deduce visited websites based on tr
 
 
 ## ⚙️ How to Run 
+### Setup on Google Colab
+
+1. Open the provided Colab notebook in Google Colab.
+2. Mount your Google Drive to access the dataset. Run the following code snippet:
+
+    ```python
+    from google.colab import drive
+    drive.mount('/content/drive')
+    ```
+
+3. Import necessary libraries and load the dataset:
+
+    ```python
+    import pandas as pd
+    import numpy as np
+    from sklearn.model_selection import train_test_split
+    ```
+
+4. Load the dataset:
+
+    ```python
+    mon_features_modified = pd.read_csv('/content/drive/MyDrive/ML_Project/mon_features_modified.csv')
+    mon_labels = pd.read_csv('/content/drive/MyDrive/ML_Project/mon_labels.csv')
+
+    unmon_features_modified = pd.read_csv('/content/drive/MyDrive/ML_Project/unmon_features_modified.csv')
+    unmon_labels = pd.read_csv('/content/drive/MyDrive/ML_Project/unmon_labels.csv')
+    ```
+    **⭐ Note: If you have the dataset stored in a different location, modify the paths accordingly.**
+
+5. Import additional libraries if needed and proceed with your experiments.
+
+    ```python
+    import numpy as np
+    import pandas as pd
+    import matplotlib.pyplot as plt
+    
+    from sklearn.model_selection import train_test_split
+    from sklearn.preprocessing import StandardScaler
+    from sklearn.metrics import accuracy_score, confusion_matrix
+    ```
+
+6. Run the code cells in the Colab notebook sequentially to reproduce the experiments.
+
 ## 🛳️ Team Titanic Member 
 <table border="1" cellspacing="0" cellpadding="0" width="90%">
     <tr width="100%">
