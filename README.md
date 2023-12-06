@@ -4,10 +4,16 @@
 ![image](https://github.com/chhaewxn/23-2_ML_TEAM_Titanic/assets/96541582/018b20cd-8ae1-4ea2-bee9-5f6c333cf44a)
 
 ### Overview
-This project aims to address privacy concerns in the context of Website Fingerprinting attacks on the Tor network. Website Fingerprinting poses a significant threat to user anonymity, and our objective is to explore and implement effective defense mechanisms against such attacks.
+Our project delves into the intricate realm of combating Website Fingerprinting—a menace to user privacy. As technology advances, adversaries exploit traffic patterns, posing a threat to anonymity, especially within the Tor network. Our research aims to unveil vulnerabilities inherent in Tor's defense mechanisms against fingerprinting attacks, crucial for preserving user privacy.
 
 ### Problem Definition
-Website Fingerprinting allows adversaries to deduce visited websites based on traffic patterns, compromising user privacy even within the anonymity-focused Tor network. This project seeks to identify vulnerabilities and develop defenses to maintain Tor's anonymity.
+Website Fingerprinting, a sophisticated form of attack, jeopardizes user privacy by allowing adversaries to deduce visited websites based on traffic patterns. Despite Tor's robust anonymity, it struggles to fully defend against such attacks, necessitating thorough research. Our focus is to identify and understand these vulnerabilities, paving the way for the development of effective defenses, ensuring the resilience of Tor's anonymity.
+
+### Model Selection
+Our model selection strategy involved choosing from six fundamental models. For binary classification in the open world, we opted for the robust combination of random forest and SVM. In the closed world for multi-classification, random forest emerged as the model of choice. In the open world for multi-classification, a careful selection process led us to rely on random forest, decision trees, and SVM.
+
+### Experiment Settings and Environment
+Executing experiments in the Colab environment, we harnessed the power of T4 GPU, 12.7GB RAM, and 78.2GB disk space. To ensure robustness, we employed an INTEL i9-12900K as an alternative during downtimes. Initial experiments involved feature visualization and subsequent refinement through the removal of less significant features, resulting in improved accuracy.
 
 
 ## ⚙️ How to Run 
