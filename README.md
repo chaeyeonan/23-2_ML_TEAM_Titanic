@@ -9,9 +9,6 @@ Our project delves into the intricate realm of combating Website Fingerprinting�
 ### Problem Definition
 Website Fingerprinting, a sophisticated form of attack, jeopardizes user privacy by allowing adversaries to deduce visited websites based on traffic patterns. Despite Tor's robust anonymity, it struggles to fully defend against such attacks, necessitating thorough research. Our focus is to identify and understand these vulnerabilities, paving the way for the development of effective defenses, ensuring the resilience of Tor's anonymity.
 
-### Model Selection
-Our model selection strategy involved choosing from six fundamental models. For binary classification in the open world, we opted for the robust combination of random forest and SVM. In the closed world for multi-classification, random forest emerged as the model of choice. In the open world for multi-classification, a careful selection process led us to rely on random forest, decision trees, and SVM.
-
 ### Experiment Settings and Environment
 Executing experiments in the Colab environment, we harnessed the power of T4 GPU, 12.7GB RAM, and 78.2GB disk space. To ensure robustness, we employed an INTEL i9-12900K as an alternative during downtimes. Initial experiments involved feature visualization and subsequent refinement through the removal of less significant features, resulting in improved accuracy.
 
@@ -30,11 +27,15 @@ Executing experiments in the Colab environment, we harnessed the power of T4 GPU
 3. Import necessary libraries and load the dataset:
 
     ```python
-    import pandas as pd
     import numpy as np
+    import pandas as pd
+    import matplotlib.pyplot as plt
+    
     from sklearn.model_selection import train_test_split
+    from sklearn.preprocessing import StandardScaler
+    from sklearn.metrics import accuracy_score, confusion_matrix
     ```
-
+    
 4. Load the dataset:
 
     ```python
@@ -46,19 +47,7 @@ Executing experiments in the Colab environment, we harnessed the power of T4 GPU
     ```
     **⭐ Note: If you have the dataset stored in a different location, modify the paths accordingly.**
 
-5. Import additional libraries if needed and proceed with your experiments.
-
-    ```python
-    import numpy as np
-    import pandas as pd
-    import matplotlib.pyplot as plt
-    
-    from sklearn.model_selection import train_test_split
-    from sklearn.preprocessing import StandardScaler
-    from sklearn.metrics import accuracy_score, confusion_matrix
-    ```
-
-6. Run the code cells in the Colab notebook sequentially to reproduce the experiments.
+5. Run the code cells in the Colab notebook sequentially to reproduce the experiments.
 
 ## 🛳️ Team Titanic Member 
 <table border="1" cellspacing="0" cellpadding="0" width="90%">
