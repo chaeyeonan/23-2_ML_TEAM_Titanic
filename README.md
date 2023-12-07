@@ -68,12 +68,4 @@ songing01">SONG JIMIN</a></td>
         <td width="16%" align="center"><img src = "https://github.com/dttbia23.png"/></td>
         <td width="16%" align="center"><img src = "https://github.com/ri-naa.png"/></td>
     </tr>
-    <tr width="100%">
-        <td width="16%" align="center">Random Forest</td>
-        <td width="16%" align="center">Data Analysis</td>
-        <td width="16%" align="center">SVM</td>
-        <td width="16%" align="center">Data Analysis</td>
-        <td width="16%" align="center">Random Forest</td>
-        <td width="16%" align="center">SVM</td>
-   </tr>
 </table>
